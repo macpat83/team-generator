@@ -10,5 +10,5 @@ test('creates a manager object', () => {
 })
 
 test("get employee role", () => {
-    expect(employee.getRole()).toBe('Manager')
+    expect(manager.getRole()).toBe('Manager')
 })
