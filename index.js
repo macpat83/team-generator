@@ -5,7 +5,7 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-const render = require("./lib/htmlRenderer");
+const render = require("./lib/index");
 
 const employees = [];
 
